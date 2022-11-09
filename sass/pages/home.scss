@@ -1,0 +1,88 @@
+.container00{
+    &.container01{
+        background-image: url(../images/home/01.jpg);
+        background-attachment: fixed;
+    }
+
+    &.container02{
+        background-image: url(../images/home/03.jpg);
+        background-attachment: fixed;
+    }
+
+    &.container03{
+        background-image: url(../images/home/02.gif);
+        background-attachment: fixed;
+    }
+
+    &.container04{
+        background-image: url(../images/home/04.jpg);
+        background-attachment: fixed;
+    }
+
+}
+
+.titleMain{
+    padding-top: 260px;
+}
+
+.shortTitle{
+    width: 550px;
+}
+
+.mediumTitle{
+    width: 650px;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 750px){
+    .titleMain{
+        padding-top: 240px;
+    }
+
+    .shortTitle{
+        width: 400px;
+    }
+
+    .mediumTitle{
+        width: 500px;
+        margin-bottom: -16px;
+    }
+}
+
+@media (max-width: 550px){
+    .titleMain{
+        padding-top: 210px;
+    }
+
+    .shortitle{
+        width: 250px;
+    }
+
+    .mediumTitle{
+        width: 350px;
+        margin-bottom: -14px;
+    }
+}
+
+@media (max-width: 320px){
+    .titleMain{
+        padding-top: 210px;
+    }
+
+    .shortTitle{
+        width: 210px;
+    }
+
+    .mediumTitle{
+        width: 290px;
+        margin-bottom: -14px;
+    }
+
+    #button{
+        padding: 12px 28px;
+    }
+
+    .footer{
+        font-size: 9px;
+    }
+}

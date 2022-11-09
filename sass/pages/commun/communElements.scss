@@ -1,0 +1,116 @@
+*{
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.header{
+    font-size: 12px;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+.logo{
+    width: 250px;
+    height: 26.75px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: -4px;
+}
+
+.nav-link{
+    padding-top: 20px;
+    color: #fff;
+    transition: 0.7s;
+
+    &:hover{
+        color: $link-hover;
+    }
+}
+
+.container00{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.arrowDown{
+    display: inline-block;
+    width: 90px;
+    margin-top: 10px;
+}
+
+#button{
+    padding: 15px 35px;
+    border: 2px solid white;
+}
+
+.downloadDesc{
+    background-color: black;
+    height: 85vh;
+    padding-top: 240px;
+    background-attachment: fixed;
+    .info{
+        color: $link-hover;
+    }
+}
+
+.emailV{
+    text-decoration: none;
+    color: $copy-color;
+
+    &:hover{
+        color: $link-hover;
+    }
+}
+
+button{
+    border: solid 2px white;
+    margin-right: 10px;
+}
+
+.footer{
+    background-color: black;
+    height: 15vh;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        text-decoration: none;
+        color: #fff;
+        transition: 0.7s;
+
+        &:hover{
+            color: $link-hover;
+        }
+    }
+
+    .copyV{
+        color: $copy-color;
+    }
+}
+
+
+// Media Query
+
+@media (max-width: 405px){
+    .logo{
+        width: 180px;
+        margin-top: 15px;
+    }
+
+    .footer{
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 350px){
+    .logo{
+        width: 150px;
+        margin-top: 15px;
+    }
+}
